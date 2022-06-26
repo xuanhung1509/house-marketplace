@@ -289,7 +289,8 @@ button {
 }
 
 .registerLink {
-  margin-top: 4rem;
+  height: 100px;
+  margin-top: 1rem;
   color: #00cc66;
   font-weight: 600;
   text-align: center;
@@ -820,8 +821,8 @@ button {
   opacity: 0.75;
 }
 
-/* UpdateListing images */
-.img-gallery {
+/* EditListing images */
+.imgGallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -829,13 +830,13 @@ button {
   margin: 1rem 0;
 }
 
-.img-gallery .img-wrapper {
+.imgGallery .imgWrapper {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.img-gallery .img-wrapper .delete-icon {
+.imgGallery .imgWrapper .iconDelete {
   cursor: pointer;
   position: absolute;
   top: 10px;
@@ -844,7 +845,7 @@ button {
   font-weight: bold;
 }
 
-.img-gallery .img-wrapper img {
+.imgGallery .imgWrapper img {
   max-width: 100%;
   object-fit: contain;
 }

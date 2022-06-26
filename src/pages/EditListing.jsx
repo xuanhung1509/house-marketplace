@@ -478,11 +478,11 @@ function EditListing() {
 
           <label className='formLabel'>Images</label>
 
-          <div className='img-gallery'>
+          <div className='imgGallery'>
             {formData.imgUrls.map((url) => (
-              <div key={url} className='img-wrapper'>
+              <div key={url} className='imgWrapper'>
                 <span
-                  className='delete-icon'
+                  className='iconDelete'
                   onClick={() => {
                     handleDeleteImage(url);
                   }}
@@ -517,5 +517,3 @@ function EditListing() {
 }
 
 export default EditListing;
-
-// @todo: delete file from firestore storage
